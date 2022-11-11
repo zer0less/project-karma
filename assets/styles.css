@@ -1694,7 +1694,7 @@ input, select, textarea {
 						}
 
 		}
-@@media ghost {
+@media ghost {
 	.ghost {
 	  visibility: hidden;
 	}

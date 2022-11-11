@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    color: black;
+    background-color: white;
+    font-family: Fira Sans;
+}
+hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100px;
+}
+nav {
+    background-color: rgb(253, 252, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    z-index: 100;
+    border-radius: 0 0 200px 200px;
+}
+name {
+    font-size: 30px;
+    align-items: center;
+}
+#add {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    width: 75px;
+    border-radius: 100%;
+}
