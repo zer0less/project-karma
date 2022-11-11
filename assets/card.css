@@ -33,7 +33,7 @@ card {
 }
 .cardcontent {
     color: black;
-    padding: 20px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     min-height: 50px;
@@ -53,4 +53,8 @@ card {
 }
 .content {
     font-size: 30px;
+}
+.name {
+    font-size: 20px;
+    color: rgb(49, 49, 49);
 }
