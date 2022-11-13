@@ -30,9 +30,60 @@ name {
     align-items: center;
 }
 #add {
+    font-size: 70px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    rotate: calc(90deg/2);
+    transition: all 1s ease;
+}
+#add:hover {
+    animation: cardani 1s ease;
+    transform: scale(1.5) rotate(calc(270deg + (90deg/2)));
+    content: '';
+}
+
+@keyframes cardani {
+    0% {
+        transform: scale(1);
+    }
+    10% {
+        transform: scale(2);
+    }
+    20% {
+        transform: scale(1);
+    }
+    80% {
+        transform: scale(1.5) rotate(calc(270deg + (90deg/2)));
+    }
+    90% {
+        transform: scale(2.5) rotate(calc(270deg + (90deg/2)));
+    }
+    100% {
+        transform: scale(1.5) rotate(calc(270deg + (90deg/2)));
+    }
+}
+
+#formcontainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    bottom: 20px;
-    right: 10px;
-    width: 75px;
-    border-radius: 100%;
+    top: 45%;
+    z-index: 10;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
 }
