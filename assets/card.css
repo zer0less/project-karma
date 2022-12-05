@@ -30,6 +30,8 @@ card {
 }
 card {
     margin: 10px;
+    justify-content: center;
+    align-items: center;
 }
 .cardcontent {
     color: black;
